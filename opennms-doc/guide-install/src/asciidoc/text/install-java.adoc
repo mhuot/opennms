@@ -1,0 +1,9 @@
+=== Install Java environment
+_OpenNMS is a _Java_ based application and requires the _Java Runtime Environment_.
+There are basically two Java Runtime Environments which can be used for _OpenNMS_:
+
+ * OpenJDK 1.7
+ * Oracle Java Runtime Environment 1.7
+
+ ==== Installing OpenJDK 1.7 on RPM based system
+  

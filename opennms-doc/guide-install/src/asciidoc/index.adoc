@@ -13,4 +13,5 @@ OpenNMS Release v{opennms-version}
 // include::text/myFile.adoc[]
 
 include::text/overview.adoc[]
+include::text/install-java.adoc[]
 include::text/install-rpm.adoc[]
