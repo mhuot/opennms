@@ -1,0 +1,3 @@
+
+== Components to install OpenNMS
+OpenNMS is a Java based application.
