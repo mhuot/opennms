@@ -1,0 +1,4 @@
+
+==== Installing and  _JRE_ on _CentOS 7.0_
+
+=====

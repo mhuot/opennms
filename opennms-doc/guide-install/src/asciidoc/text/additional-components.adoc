@@ -1,0 +1,4 @@
+== Additional Components to extend OpenNMS
+
+ * SNMP Provisioning Asset Adapter
+ * RANCID integration

@@ -12,6 +12,9 @@ OpenNMS Release v{opennms-version}
 
 // include::text/myFile.adoc[]
 
-include::text/overview.adoc[]
-include::text/install-java.adoc[]
-include::text/install-rpm.adoc[]
+Install guide mit links:
+
+ * link:install-centos70.html[Installation guide for CentOS 7.0]
+ * link:install-debian70.html[Installation guide for Debian 7.0]
+ * link:install-ubuntu1404.html[Installation guide for Ubuntu 14.04 LTS]
+ * link:install-windows.html[Installation guide for Microsoft Windows Server 2012]

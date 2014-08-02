@@ -17,7 +17,7 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="94.0" width="613.9999999999999" x="329.00000000000006" y="-107.5"/>
+          <y:Geometry height="94.0" width="613.9999999999999" x="329.00000000000006" y="-154.0"/>
           <y:Fill color="#E9B96E" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="l" rotationAngle="270.0" textColor="#000000" visible="true" width="60.24399948120117" x="4.0" y="16.878000259399414">OpenNMS</y:NodeLabel>
@@ -61,7 +61,7 @@
     <node id="n4">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.0" width="213.9999999999999" x="411.99999999999994" y="-87.0"/>
+          <y:Geometry height="53.0" width="213.9999999999999" x="411.99999999999994" y="-133.5"/>
           <y:Fill color="#8AE234" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="79.09600067138672" x="67.45199966430658" y="17.510000228881836">Core Services</y:NodeLabel>
@@ -72,7 +72,7 @@
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.0" width="213.9999999999999" x="676.9999999999999" y="-87.0"/>
+          <y:Geometry height="53.0" width="213.9999999999999" x="676.9999999999999" y="-133.5"/>
           <y:Fill color="#8AE234" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="87.56800842285156" x="63.215995788574105" y="17.510000228881836">Webapplication</y:NodeLabel>
@@ -212,12 +212,54 @@
         </y:ShapeNode>
       </data>
     </node>
+    <node id="n18">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="40.0" width="613.9999999999999" x="329.50000000000006" y="-45.0"/>
+          <y:Fill color="#EEEEEC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="l" rotationAngle="270.0" textColor="#000000" visible="true" width="25.779998779296875" x="4.0" y="7.1100006103515625">JRE</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="19.0" width="213.9999999999999" x="412.00000000000006" y="-34.5"/>
+          <y:Fill color="#729FCF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="56.03199768066406" x="78.98400115966791" y="0.5100002288818359">OpenJDK</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="19.0" width="213.9999999999999" x="677.0000000000001" y="-34.5"/>
+          <y:Fill color="#729FCF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="86.4520034790039" x="63.77399826049793" y="0.5100002288818359">Oracle Java RE</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <edge id="e0" source="n9" target="n2">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+        </y:QuadCurveEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n11" target="n12">
+      <data key="d10">
+        <y:QuadCurveEdge straightness="0.1">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="standard" target="none"/>
         </y:QuadCurveEdge>
       </data>
     </edge>

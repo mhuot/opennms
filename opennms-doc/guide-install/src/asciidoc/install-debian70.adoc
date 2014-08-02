@@ -1,0 +1,23 @@
+// Global settings
+:ascii-ids:
+:encoding: UTF-8
+:lang: en
+:icons: font
+:toc: left
+:toclevels: 8
+:numbered:
+
+= Installation Guide for _Debian 7.0_
+OpenNMS Release v{opennms-version}
+
+// include::text/myFile.adoc[]
+
+include::text/overview.adoc[]
+
+// Installing and configuring Java
+include::text/install-java.adoc[]
+include::text/java/install-java-debian70.adoc[]
+
+// Installing and configuring PostgreSQL
+include::text/install-postgresql.adoc[]
+include::text/postgres/install-postgres-debian70.adoc[]

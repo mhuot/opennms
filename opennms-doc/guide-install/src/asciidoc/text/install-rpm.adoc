@@ -1,2 +1,15 @@
 
-== Install OpenNMS as RPM
+== Install OpenNMS on RPM based systems
+
+=== Step 1: Install Java Runtime Environment
+
+==== Variant: OpenJDK 1.7
+==== Variant: Oracle Java Environment
+
+=== Step 2: Install and configure PostgreSQL database
+
+=== Step 3: Optional installing _RRDtool_
+
+=== Step 4: Install OpenNMS package repository
+
+=== Step 5: Install OpenNMS Core services with Webapplication
