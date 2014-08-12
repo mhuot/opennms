@@ -1,7 +1,15 @@
 
 === DhcpMonitor
-
 This monitor is used to monitor the availability and functionality of http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol[DHCP servers].
+Regarding to the behavior of DHCP the monitor is divided in two components:
+
+ * _DhcpMonitor_: This component sends a _DISCOVER_ request to the _DHCP server_ to test.
+   The target IP address is the address where the DHCP service is assigned to.
+ * _Dhcpd_: This component acts as a _DHCP client_ and receives and validates the responses from the _DHCP server_.
+
+Regarding the result of the _OpenNMS_ internal _Dhcpd_ the monitor status is _up_ or _down_.
+
+image::poller/02_dhcp-monitor.png[]
 
 ==== Monitor facts
 
@@ -49,12 +57,12 @@ Some example configuration how to configure the 'service-configuration.xml'.
 [source, xml]
 ----
 <service>
-    <name>OpenNMS:Name=Dhcpd</name>
-    <class-name>org.opennms.netmgt.dhcpd.jmx.Dhcpd</class-name>
-    <invoke at="start" pass="1" method="start"/>
-    <invoke at="status" pass="0" method="status"/>
-    <invoke at="stop" pass="0" method="stop"/>
-  </service>
+  <name>OpenNMS:Name=Dhcpd</name>
+  <class-name>org.opennms.netmgt.dhcpd.jmx.Dhcpd</class-name>
+  <invoke at="start" pass="1" method="start"/>
+  <invoke at="status" pass="0" method="status"/>
+  <invoke at="stop" pass="0" method="stop"/>
+</service>
 ----
 
 
@@ -109,7 +117,6 @@ Some example configuration how to configure the 'dhcp-configuration.xml'.
                        `requestIpAddress="10.77.88.99"` or `requestIpAddress="targetHost"` or
                        `requestIpAddress="targetSubnet"`                                                                | required | `false`
 |===
-
 
 ==== Hint
 
