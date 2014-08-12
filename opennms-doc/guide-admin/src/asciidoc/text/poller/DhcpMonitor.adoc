@@ -9,6 +9,10 @@ Regarding to the behavior of DHCP the monitor is divided in two components:
 
 Regarding the result of the _OpenNMS_ internal _Dhcpd_ the monitor status is _up_ or _down_.
 
+CAUTION: It is necessary to install the +opennms-plugin-protocol-dhcp+ with your package management system.
+         The DHCP protocol components are *not* installed in a default OpenNMS installation.
+
+.Communication and components for testing DHCP Server
 image::poller/02_dhcp-monitor.png[]
 
 ==== Monitor facts
